@@ -5,7 +5,7 @@ personal_string = input("Введите текст: ")
 # Строка пользователя к нижнему регистру
 lower_string = personal_string.lower()
 
-# Удаляем со строки символы
+# Удаляем символы со строки
 replace_string = lower_string.replace(".", "").replace(",", "").replace("-", "")\
     .replace(":", "").replace(";", "").replace("?", "").replace("!", "")
 
