@@ -16,4 +16,4 @@ while user_input.lower() != 'sum':
     user_input = input("Вводь число або 'sum' для сумування: ")
 
 # сумування всіх чисел введених користувачем
-print("Відповідь:",sum(number))
+print("Відповідь:", sum(number))
