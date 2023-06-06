@@ -10,12 +10,12 @@ def prime_numbers(number_min: int = 0, number_max: int = 100):
     # Список простих чисел від 0 до 100
     numbers = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97}
 
-    used_number = input("Введи число від 0 до 100, щоб перевірити чи воно просте: ")
+    used_number = input("Введи число від 1 (включно) до 100, щоб перевірити чи воно просте: ")
     while True:
         try:
             used_number = int(used_number)
             # Перевірка на вимогу функції
-            if number_min < used_number < number_max:
+            if number_min < used_number <= number_max:
                 if used_number in numbers:
                     return True
                 else:
