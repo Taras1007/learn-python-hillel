@@ -36,7 +36,6 @@ class Animals:
             print(f"{self.name} не ест {food}")
             self.bard()
 
-
     def treat(self, hours: int):
         """
         Метод ухаживания за животным

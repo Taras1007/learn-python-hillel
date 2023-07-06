@@ -11,6 +11,7 @@ if __name__ == '__main__':
     ]
 
     animals_food = ["каша", "корм", "молоко", "мясо", "суп", "сено", "трава", "вода", "овощи", "хлеб", "зерно", "пшено"]
+
     what_we_got = list()
     what_we_lost = list()
     for animal in my_farm_animals:
